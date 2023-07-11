@@ -75,7 +75,8 @@ const AppProvider = ({ children }) => {
 
   // axios
   const authFetch = axios.create({
-    baseURL: "http://localhost:8000/api/v1",
+    // baseURL: "http://localhost:8000/api/v1",
+    baseURL: "https://jobify-yv59.onrender.com",
     // headers: {
     //   Authorization: `Bearer ${state.token}`,
     // },
